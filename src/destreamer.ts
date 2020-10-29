@@ -253,6 +253,7 @@ async function downloadVideo(videoGUIDs: Array<string>, outputDirectories: Array
             ffmpegCmd.on('success', () => {
                 pbar.update(video.totalChunks); // set progress bar to 100%
                 logger.info(`\nDownload finished: ${video.outPath} \n`);
+                logger.info(`\nCaptions: ${video.captionsUrl} \n`);
                 resolve();
             });
 

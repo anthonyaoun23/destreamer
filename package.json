@@ -42,6 +42,8 @@
     "puppeteer": "2.1.1",
     "readline-sync": "^1.4.10",
     "sanitize-filename": "^1.6.3",
+    "subsrt": "^1.1.1",
+    "subtitles-parser-vtt": "0.0.8",
     "terminal-image": "^1.0.1",
     "typescript": "^3.8.3",
     "winston": "^3.3.2",

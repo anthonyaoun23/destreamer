@@ -74,8 +74,8 @@ export const argv: any = yargs.options({
         alias: 'cc',
         describe: 'Check if closed captions are available and let the user choose which one to download (will not ask if only one available)',
         type: 'boolean',
-        default: false,
-        demandOption: false
+        default: true,
+        demandOption: true
     },
     noCleanup: {
         alias: 'nc',
